@@ -1,0 +1,7 @@
+#! /bin/bash
+
+mkdir -p /usr/include/uWS
+ln -sf /data/uWebSockets/src/*.h /usr/include/uWS/
+ln -sf /data/uWebSockets/build/libuWS.so /usr/lib/
+ln -sf /home/workspace/simulator.desktop /root/Desktop/simulator.desktop
+cp -rsn /data/libuv/usr/* /usr &> /dev/null
